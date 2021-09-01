@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
+
     public static GameController Instance;
-    public   List<Block> Openlist;
-    public  List<Block> CloseList;
+    
+    public List<Block> CloseList = new List<Block>();
 
     void Start()
     {
@@ -22,6 +23,6 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+      
     }
 }

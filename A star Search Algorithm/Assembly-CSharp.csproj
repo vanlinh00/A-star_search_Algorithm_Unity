@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3DFCAC9D-4009-E277-4920-93F97209E324}</ProjectGuid>
+    <ProjectGuid>{4F840B19-4DE7-E4C0-3A79-C31F1199ACF9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -65,41 +65,41 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Block.cs" />
+    <Compile Include="Assets\Scripts\Board.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
-    <Compile Include="Assets\Scripts\Puzzle.cs" />
     <Compile Include="Assets\Scripts\UiController.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/canha/Documents/GitHub/GamePuzzle_Sliding-Blocks/GamePuzzle_SlidingBlocks/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/canha/Documents/GitHub/A-star_search_Algorithm_Unity/A star Search Algorithm/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/canha/Documents/GitHub/GamePuzzle_Sliding-Blocks/GamePuzzle_SlidingBlocks/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/canha/Documents/GitHub/A-star_search_Algorithm_Unity/A star Search Algorithm/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/canha/Documents/GitHub/GamePuzzle_Sliding-Blocks/GamePuzzle_SlidingBlocks/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/canha/Documents/GitHub/A-star_search_Algorithm_Unity/A star Search Algorithm/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/canha/Documents/GitHub/GamePuzzle_Sliding-Blocks/GamePuzzle_SlidingBlocks/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/canha/Documents/GitHub/A-star_search_Algorithm_Unity/A star Search Algorithm/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/canha/Documents/GitHub/GamePuzzle_Sliding-Blocks/GamePuzzle_SlidingBlocks/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/canha/Documents/GitHub/A-star_search_Algorithm_Unity/A star Search Algorithm/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/canha/Documents/GitHub/GamePuzzle_Sliding-Blocks/GamePuzzle_SlidingBlocks/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/canha/Documents/GitHub/A-star_search_Algorithm_Unity/A star Search Algorithm/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/canha/Documents/GitHub/GamePuzzle_Sliding-Blocks/GamePuzzle_SlidingBlocks/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/canha/Documents/GitHub/A-star_search_Algorithm_Unity/A star Search Algorithm/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:/Users/canha/Documents/GitHub/GamePuzzle_Sliding-Blocks/GamePuzzle_SlidingBlocks/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:/Users/canha/Documents/GitHub/A-star_search_Algorithm_Unity/A star Search Algorithm/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>C:/Users/canha/Documents/GitHub/GamePuzzle_Sliding-Blocks/GamePuzzle_SlidingBlocks/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:/Users/canha/Documents/GitHub/A-star_search_Algorithm_Unity/A star Search Algorithm/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/canha/Documents/GitHub/GamePuzzle_Sliding-Blocks/GamePuzzle_SlidingBlocks/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/canha/Documents/GitHub/A-star_search_Algorithm_Unity/A star Search Algorithm/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/canha/Documents/GitHub/GamePuzzle_Sliding-Blocks/GamePuzzle_SlidingBlocks/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/canha/Documents/GitHub/A-star_search_Algorithm_Unity/A star Search Algorithm/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/2019.2.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
