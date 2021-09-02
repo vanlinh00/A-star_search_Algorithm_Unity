@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Block : MonoBehaviour
 {
-   
+
+    public static Block Instance;
     private bool isSelected = false;
 
     private Vector2[] adjacentDirections = new Vector2[] { Vector2.up, Vector2.down, Vector2.left, Vector2.right };  // mảng vector2 chiều
@@ -12,20 +13,20 @@ public class Block : MonoBehaviour
     private SpriteRenderer render;
     void Awake()
     {
-      
+        Instance = this;
 
     }
     private void Select()
     {
         isSelected = true;
-        previousSelected = gameObject.GetComponent<Block>();
+   //     previousSelected = gameObject.GetComponent<Block>();
 
     }
 
     private void Deselect()
     {
         isSelected = false;
-        previousSelected = null;
+    //    previousSelected = null;
     }
 
 	// Start is called before the first frame update
@@ -46,7 +47,7 @@ public class Block : MonoBehaviour
         }
         return null;
     }
-    private List<GameObject> GetAllAdjacentTiles()
+    public List<GameObject> GetAllAdjacentTiles()
     {
         List<GameObject> adjacentTiles = new List<GameObject>();
         for (int i = 0; i < adjacentDirections.Length; i++)

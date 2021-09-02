@@ -82,6 +82,7 @@ public class Board : MonoBehaviour
     {
         //b1: 
         Closelist.Add(Astart);
+
         // b2: Sau đó add tất cả các ô vuông lân cận của vị trí hiện tại vào Open list
         
         while (Openlist !=null)
